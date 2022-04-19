@@ -1,6 +1,6 @@
 # Getting Started
 
-Rename `exmaple.configurations.py` to `configurations.py`.  Then change the settings within configuration.py to meet your needs.
+Rename `exmaple.configurations.py` to `configurations.py`.  Then change the settings within `configurations.py` to meet your needs.
 
 You may need to install the `requests` and `dnspython` modules in your environment to get this script to work.
 ```
