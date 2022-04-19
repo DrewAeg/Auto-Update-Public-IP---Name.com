@@ -19,6 +19,8 @@ The application checks your current public IP address which is used by the host 
 
 Once your public IP address is found, this application does a `NSLOOKUP` on the configured FQDN.  If the IP address from the lookup is different from the current public IP, the application then communicates with name.com API and updates the `A` or `AAAA` record (whichever is relevant).
 
+Depending on your setting, this application can be run once, or forever.  If run forever, it will check for any change to your current public IP based on the interval configured in the `configurations.py` file.
+
 ## TODO
 
 1) Configure proper logging to file or console.  Currently uses `print()` function.
