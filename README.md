@@ -7,6 +7,10 @@ You may need to install the `requests` and `dnspython` modules in your environme
 pip3 install requests
 pip3 install dnspython
 ```
+or
+```
+pip3 install -r requirements.txt
+```
 
 
 # Overview
